@@ -1,3 +1,22 @@
+src/
+├── app/
+│ ├── page.tsx # Huvudsidan, din startpunkt
+│ ├── layout.tsx # Den gemensamma layouten för alla sidor (navbar, footer)
+│ ├── api/
+│ │ └── contact/
+│ │ └── route.ts # API-endpoint för kontaktformuläret
+│ └── globals.css # Tailwind CSS
+├── components/
+│ ├── AboutSection.tsx # Komponenten för "Om företaget"
+│ ├── Cards.tsx # Komponenten med relining och rörinspektion
+│ ├── ContactForm.tsx # Komponenten för kontaktformuläret
+│ ├── Footer.tsx # Sidfoten
+│ ├── Header.tsx # Huvudsektionen med bakgrundsbild
+│ ├── Hero.tsx # "Relining, nya rör..."
+│ ├── Navbar.tsx # Navigationsfältet
+│ ├── Personnel.tsx # Komponenten för personal
+│ └── Brif.tsx # "Snabbfakta om BRiF"
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
