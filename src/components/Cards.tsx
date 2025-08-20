@@ -26,12 +26,12 @@ const cards = [
 
 export default function Cards() {
   return (
-    <div className="flex flex-col md:flex-row gap-8 p-8 max-w-6xl mx-auto my-10">
+    <div className="flex flex-col md:flex-row gap-8 p-8 max-w-6xl  mx-auto my-10">
       {cards.map((card) => (
         <div
           key={card.id}
           id={card.id}
-          className="flex-1 bg-white rounded-lg shadow-md p-6 text-left"
+          className="flex-1 bg-white hover:scale-105 rounded-lg shadow-md  p-6 text-left"
         >
           <Image
             src={card.image}

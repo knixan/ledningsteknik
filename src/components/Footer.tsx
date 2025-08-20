@@ -11,11 +11,11 @@ export default function Footer() {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <Image
-              src="/images/lednings-teknik-ltinitab-l.jpg"
+              src="/images/NylogotypLedningsteknikoriginal-01.jpg"
               alt="Liten Logga"
-              width={64}
-              height={64}
-              className="h-16 w-auto border-2 border-black"
+              width={500}
+              height={500}
+              className="h-18 w-auto border-2 border-black"
             />
           </Link>
           <Link
@@ -25,9 +25,9 @@ export default function Footer() {
             <Image
               src="/images/brif-logo.png"
               alt="BRiF"
-              width={64}
-              height={64}
-              className="h-16 w-auto"
+              width={500}
+              height={500}
+              className="h-18 w-auto"
             />
           </Link>
           <Link
@@ -37,9 +37,9 @@ export default function Footer() {
             <Image
               src="/images/stvf.png"
               alt="STVF"
-              width={64}
-              height={64}
-              className="h-16 w-auto"
+              width={500}
+              height={500}
+              className="h-18 w-auto"
             />
           </Link>
           <Link
@@ -49,9 +49,9 @@ export default function Footer() {
             <Image
               src="/images/sintef.png"
               alt="Sintef"
-              width={64}
-              height={64}
-              className="h-16 w-auto"
+              width={500}
+              height={500}
+              className="h-18 w-auto"
             />
           </Link>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-white">
@@ -95,7 +95,7 @@ export default function Footer() {
             Ledningsteknik AB
           </Link>
           . All Rights Reserved.
-          <Link href="https://kodochdesign/" className="hover:underline">
+          <Link href="https://kodochdesign.se" className="hover:underline">
             Design by Kod och Design
           </Link>
           .

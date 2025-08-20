@@ -16,11 +16,11 @@ export default function Navbar() {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <Image
-            src="/images/ledningsteknikLoggo1.jpg"
+            src="/images/Ledningsteknik-loggo-01.png"
             alt="Ledningsteknik Logo"
-            width={120}
-            height={60}
-            className="h-18 w-auto"
+            width={800}
+            height={800}
+            className="h-24 w-auto"
           />
         </Link>
         <button
@@ -41,7 +41,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="#omforetaget"
-                className="block py-2 px-3 text-blue-700 hover:text-red-700"
+                className="block py-2 px-3 font-semibold text-blue-700 hover:text-red-700"
               >
                 Om företaget
               </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="#brif"
-                className="block py-2 px-3 text-blue-700 hover:text-blue-500"
+                className="block py-2 px-3 font-semibold text-blue-700 hover:text-red-700"
               >
                 Brif
               </Link>
@@ -57,31 +57,16 @@ export default function Navbar() {
             <li>
               <Link
                 href="#relining"
-                className="block py-2 px-3 text-blue-700 hover:text-blue-500"
+                className="block py-2 px-3 font-semibold text-blue-700 hover:text-red-700"
               >
-                Relining
+                Tjänster
               </Link>
             </li>
-            <li>
-              <Link
-                href="#rorinspektion"
-                className="block py-2 px-3 text-blue-700 hover:text-blue-500"
-              >
-                Rörinspektion
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#omoss"
-                className="block py-2 px-3 text-blue-700 hover:text-blue-500"
-              >
-                Om oss
-              </Link>
-            </li>
+
             <li>
               <Link
                 href="#contact-form"
-                className="block py-2 px-3 text-blue-700 hover:text-blue-500"
+                className="block py-2 px-3 font-semibold text-blue-700 hover:text-red-700"
               >
                 Kontakta oss
               </Link>

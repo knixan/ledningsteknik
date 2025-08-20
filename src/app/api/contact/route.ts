@@ -16,8 +16,8 @@ export async function POST(req: NextRequest) {
     });
 
     const mailOptions = {
-      from: process.env.EMAIL_SERVER_USER,
-      to: process.env.TARGET_EMAIL,
+      from: "finn83@ethereal.email", // Ange en avsändare
+      to: "finn84@ethereal.email", // Ange mottagaren
       subject: "Nytt meddelande från webbplatsens kontaktformulär",
       html: `
         <h2>Kontaktförfrågan</h2>

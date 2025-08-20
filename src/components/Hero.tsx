@@ -27,7 +27,7 @@ export default function Hero() {
         </p>
         <Link
           href="#contact-form"
-          className="inline-flex items-center justify-center px-5 py-3 m-4 text-base font-medium text-center bg-red-700 rounded-lg hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-blue-800"
+          className="inline-flex items-center  hover:scale-110 justify-center px-5 py-3 m-4 text-base font-medium text-center bg-red-700 rounded-lg hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-blue-800"
         >
           Kontakt oss
           <FaArrowRight className="w-3.5 h-3.5 ms-2 rtl:rotate-180" />

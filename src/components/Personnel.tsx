@@ -41,7 +41,7 @@ const personnel = [
 
 export default function Personnel() {
   return (
-    <div id="omoss" className="flex flex-wrap justify-center gap-6 p-6">
+    <div id="omoss" className="flex flex-wrap   justify-center gap-6 p-6">
       {personnel.map((person) => (
         <div
           key={person.name}
@@ -52,7 +52,7 @@ export default function Personnel() {
             alt={`Profilbild av ${person.name}`}
             width={96}
             height={96}
-            className="w-24 h-24 rounded-full object-cover mb-4 border-2 border-gray-300"
+            className="w-24 h-24 rounded-full hover:scale-120 object-cover mb-4 border-2 border-gray-300"
           />
           <h3 className="text-xl font-semibold text-red-800 mb-1">
             {person.name}
