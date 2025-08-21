@@ -14,7 +14,7 @@ export default function Home() {
       <Cards />
       <ContactForm />
       <Personnel />
-      {/* Google Maps-iframe här, det kräver ingen komponent */}
+
       <section className="w-full h-96">
         <iframe
           className="w-full h-full"
