@@ -11,7 +11,7 @@ export default function Footer() {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <Image
-              src="/images/NylogotypLedningsteknikoriginal-01.jpg"
+              src="/Images/NylogotypLedningsteknikoriginal-01.jpg"
               alt="Liten Logga"
               width={500}
               height={500}
@@ -23,7 +23,7 @@ export default function Footer() {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <Image
-              src="/images/brif-logo.png"
+              src="/Images/brif-logo.png"
               alt="BRiF"
               width={500}
               height={500}
@@ -35,7 +35,7 @@ export default function Footer() {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <Image
-              src="/images/stvf.png"
+              src="/Images/stvf.png"
               alt="STVF"
               width={500}
               height={500}
@@ -47,7 +47,7 @@ export default function Footer() {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <Image
-              src="/images/sintef.png"
+              src="/Images/sintef.png"
               alt="Sintef"
               width={500}
               height={500}
