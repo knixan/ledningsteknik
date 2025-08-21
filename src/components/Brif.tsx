@@ -36,9 +36,9 @@ export default function Brif() {
         <Image
           src="/images/brif-logo.png"
           alt="BRiF logo"
-          width={96}
-          height={96}
-          className="h-24 mb-4 mt-4"
+          width={200}
+          height={200}
+          className="h-24 w-24 mb-4 mt-4"
         />
       </div>
     </div>

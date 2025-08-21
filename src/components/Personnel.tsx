@@ -50,8 +50,8 @@ export default function Personnel() {
           <Image
             src={person.image}
             alt={`Profilbild av ${person.name}`}
-            width={96}
-            height={96}
+            width={200}
+            height={200}
             className="w-24 h-24 rounded-full hover:scale-120 object-cover mb-4 border-2 border-gray-300"
           />
           <h3 className="text-xl font-semibold text-red-800 mb-1">

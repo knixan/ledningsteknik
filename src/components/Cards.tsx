@@ -37,7 +37,7 @@ export default function Cards() {
             src={card.image}
             alt={card.title}
             width={400}
-            height={200}
+            height={400}
             className="w-full h-48 object-cover rounded-md mb-4 mx-auto"
           />
           <h3 className="text-xl font-semibold text-red-800 mb-2">

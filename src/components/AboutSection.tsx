@@ -42,7 +42,7 @@ export default function AboutSection() {
           src="/images/omoss.jpg"
           alt="bild om företaget"
           width={500}
-          height={300}
+          height={500}
           className="rounded-lg shadow-md max-w-full h-auto"
         />
       </div>

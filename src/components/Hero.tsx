@@ -11,11 +11,10 @@ export default function Hero() {
       <Image
         src="/images/bakgrund1.jpg"
         alt="bakgrundsbild"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        className="absolute z-0"
+        fill
+        className="absolute z-0 object-cover"
       />
+
       <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-white text-center px-4">
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
