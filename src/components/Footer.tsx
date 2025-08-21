@@ -85,7 +85,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="#omoss" className="  hover:text-red-700">
+              <Link href="#personal" className="  hover:text-red-700">
                 Om oss
               </Link>
             </li>
@@ -98,7 +98,9 @@ export default function Footer() {
           <p className="text-sm">Hammarvägen 28</p>
           <p className="text-sm">943 36 Öjebyn</p>
           <br />
-          <p className="text-sm">Telefon: 0911-105 15 </p>
+          <p className="text-sm">Telefon kontor: 0911-105 15 </p>
+          <p className="text-sm">Martin Lindblom: 070-644 65 75 </p>
+          <p className="text-sm">Johan Roos: 070-294 21 75 </p>
         </div>
 
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
