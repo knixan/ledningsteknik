@@ -41,7 +41,7 @@ const personnel = [
 
 export default function Personnel() {
   return (
-    <div id="omoss" className="flex flex-wrap   justify-center gap-6 p-6">
+    <div id="personal" className="flex flex-wrap   justify-center gap-6 p-6">
       {personnel.map((person) => (
         <div
           key={person.name}

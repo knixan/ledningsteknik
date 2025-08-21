@@ -3,7 +3,7 @@ import AboutSection from "@/components/AboutSection";
 import Brif from "@/components/Brif";
 import Cards from "@/components/Cards";
 import ContactForm from "@/components/ContactForm";
-import Personnel from "@/components/Personnel";
+import Personnel from "@/components/Personal";
 
 export default function Home() {
   return (

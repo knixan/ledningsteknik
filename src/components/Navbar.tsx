@@ -62,6 +62,14 @@ export default function Navbar() {
                 Tjänster
               </Link>
             </li>
+            <li>
+              <Link
+                href="#personal"
+                className="block py-2 px-3 font-semibold text-blue-700 hover:text-red-700"
+              >
+                Om oss
+              </Link>
+            </li>
 
             <li>
               <Link
