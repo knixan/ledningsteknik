@@ -55,10 +55,11 @@ export default function ContactForm() {
     <div
       id="contact-form"
       className="relative min-h-screen bg-cover bg-center flex items-center justify-center p-4 md:p-8"
-      style={{ backgroundImage: 'url("/images/bakgrund2.jpg")' }}
+      style={{ backgroundImage: 'url("/Images/bakgrund2.jpg")' }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="relative z-10 bg-white bg-opacity-90 p-8 md:p-10 rounded-lg shadow-xl w-full max-w-md">
+
+      <div className="relative z-10 bg-white bg-opacity-50 p-8 md:p-10 rounded-lg shadow-xl w-full max-w-xl">
         <h2 className="text-3xl font-bold text-red-800 mb-6 text-center">
           Kontakta oss
         </h2>

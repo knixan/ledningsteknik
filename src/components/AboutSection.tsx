@@ -39,7 +39,7 @@ export default function AboutSection() {
       </div>
       <div className="w-full md:w-1/2 flex justify-center items-center">
         <Image
-          src="/images/omoss.jpg"
+          src="/Images/omoss.jpg"
           alt="bild om företaget"
           width={500}
           height={500}

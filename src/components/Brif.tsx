@@ -34,7 +34,7 @@ export default function Brif() {
           gynnar både fastighetsägare och boende.
         </p>
         <Image
-          src="/images/brif-logo.png"
+          src="/Images/brif-logo.png"
           alt="BRiF logo"
           width={200}
           height={200}

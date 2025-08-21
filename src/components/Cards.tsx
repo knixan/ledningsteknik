@@ -3,21 +3,21 @@ import Image from "next/image";
 const cards = [
   {
     id: "relining",
-    image: "/images/bild1.jpg",
+    image: "/Images/bild1.jpg",
     title: "Relining i Fastigheter",
     description:
       "Vi erbjuder kostnads- och tidseffektiva lösningar för avloppsrenovering med hjälp av flexibelt foder. Denna metod garanterar en livslängd som är jämförbar med ett traditionellt stambyte, men med avsevärt mindre störning för fastighetens boende. De boende kan stanna kvar i sina hem under hela processen och slipper både byggdamm och oväsen.",
   },
   {
     id: "relining-mark",
-    image: "/images/bild2.jpg",
+    image: "/Images/bild2.jpg",
     title: "Relining i Mark",
     description:
       "Vi erbjuder relining av markförlagda spill- och dagvattenledningar upp till dimensionen 300 mm. Efter att reliningen är utförd, kan vi med hjälp av robotfräs exakt återöppna anslutande grenrör och serviceledningar. Denna metod säkerställer en effektiv och hållbar renovering med minimala störningar.",
   },
   {
     id: "rorinspektion",
-    image: "/images/bild3.jpg",
+    image: "/Images/bild3.jpg",
     title: "Rörinspektion",
     description:
       "Vi förfogar över auktoriserade rörinspektörer certifierade av STVF. Våra inspektioner utförs i enlighet med gällande branschstandarder: P93 för markledningar och T25 för fastighetsledningar. Detta säkerställer en korrekt och tillförlitlig bedömning av era rörsystem.",

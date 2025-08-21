@@ -9,7 +9,7 @@ export default function Hero() {
       className="relative w-screen h-96 flex items-center justify-center"
     >
       <Image
-        src="/images/bakgrund1.jpg"
+        src="/Images/bakgrund1.jpg"
         alt="bakgrundsbild"
         fill
         className="absolute z-0 object-cover"

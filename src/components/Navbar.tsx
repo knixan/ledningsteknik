@@ -16,7 +16,7 @@ export default function Navbar() {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <Image
-            src="/images/Ledningsteknik-loggo-01.png"
+            src="/Images/Ledningsteknik-loggo-01.png"
             alt="Ledningsteknik Logo"
             width={800}
             height={800}

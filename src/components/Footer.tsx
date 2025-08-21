@@ -97,6 +97,8 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-2">Ledningsteknik AB</h3>
           <p className="text-sm">Hammarvägen 28</p>
           <p className="text-sm">943 36 Öjebyn</p>
+          <br />
+          <p className="text-sm">Telefon: 0911-105 15 </p>
         </div>
 
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
