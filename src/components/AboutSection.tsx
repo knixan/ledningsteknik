@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section id="omforetaget" className="py-12 bg-gray-50">
+    <section id="omoss" className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between bg-white shadow-xl rounded-2xl p-8 md:p-12 transition-all duration-300">
           <div className="w-full md:w-1/2 md:pr-12 mb-8 md:mb-0 text-left">

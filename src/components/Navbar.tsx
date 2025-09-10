@@ -9,10 +9,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { href: "#omforetaget", text: "Om företaget" },
+    { href: "#omoss", text: "Om oss" },
     { href: "#brif", text: "Brif" },
     { href: "#relining", text: "Tjänster" }, // Grupperat relining, rörinspektion under "Tjänster"
-    { href: "#personal", text: "Om oss" },
+    { href: "#personal", text: "Personal" },
     { href: "#contact-form", text: "Kontakta oss" },
   ];
 
