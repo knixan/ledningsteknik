@@ -26,26 +26,35 @@ const cards = [
 
 export default function Cards() {
   return (
-    <div className="flex flex-col md:flex-row gap-8 p-8 max-w-6xl  mx-auto my-10">
-      {cards.map((card) => (
-        <div
-          key={card.id}
-          id={card.id}
-          className="flex-1 bg-white hover:scale-105 rounded-lg shadow-md  p-6 text-left"
-        >
-          <Image
-            src={card.image}
-            alt={card.title}
-            width={400}
-            height={400}
-            className="w-full h-48 object-cover rounded-md mb-4 mx-auto"
-          />
-          <h3 className="text-xl font-semibold text-red-800 mb-2">
-            {card.title}
-          </h3>
-          <p className="text-gray-700">{card.description}</p>
+    <div className="py-12 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {cards.map((card) => (
+            <div
+              key={card.id}
+              id={card.id}
+              className="relative overflow-hidden bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group"
+            >
+              <div className="relative w-full h-64">
+                <Image
+                  src={card.image}
+                  alt={card.title}
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-t-xl group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t"></div>
+              </div>
+              <div className="p-6 text-left">
+                <h3 className="text-xl font-bold text-sky-800 mb-2">
+                  {card.title}
+                </h3>
+                <p className="text-gray-700">{card.description}</p>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </div>
   );
 }
