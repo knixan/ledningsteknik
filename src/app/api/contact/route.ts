@@ -1,4 +1,4 @@
-//src\app\api\contact\route.ts
+
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
@@ -11,22 +11,22 @@ export async function POST(req: NextRequest) {
       host: "smtp.ethereal.email",
       port: 587,
       auth: {
-        user: "finn83@ethereal.email",
-        pass: "6J5uzGGJhjQu234Q4q",
+        user: "karianne36@ethereal.email",
+        pass: "EnTMMFfq8TeUdaf9aF",
       },
     });
 
     const mailOptions = {
-      from: "finn83@ethereal.email", // Ange en avsändare
-      to: "finn84@ethereal.email", // Ange mottagaren
-      subject: "Nytt meddelande från webbplatsens kontaktformulär",
+      from: "karianne36@ethereal.email", // Specify a sender
+      to: "karianne36@ethereal.email", // Specify the recipient
+      subject: "New message from the website contact form",
       html: `
-        <h2>Kontaktförfrågan</h2>
-        <p><strong>Namn:</strong> ${firstName} ${lastName}</p>
-        <p><strong>E-post:</strong> ${email}</p>
-        <p><strong>Telefon:</strong> ${phone}</p>
-        <p><strong>Stad/Ort:</strong> ${city}</p>
-        <p><strong>Meddelande:</strong></p>
+        <h2>Contact Inquiry</h2>
+        <p><strong>Name:</strong> ${firstName} ${lastName}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>City/Location:</strong> ${city}</p>
+        <p><strong>Message:</strong></p>
         <p>${message}</p>
       `,
     };
@@ -34,13 +34,13 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail(mailOptions);
 
     return NextResponse.json(
-      { message: "Meddelandet har skickats!" },
+      { message: "The message has been sent!" },
       { status: 200 }
     );
   } catch (error) {
-    console.error("Fel vid sändning av e-post:", error);
+    console.error("Error sending email:", error);
     return NextResponse.json(
-      { message: "Kunde inte skicka meddelandet." },
+      { message: "Could not send the message." },
       { status: 500 }
     );
   }
